@@ -12,7 +12,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: #f0f0f0; /* You can change this to any color or gradient */
+            background: url('https://your-image-url.jpg') no-repeat center center fixed; /* Full background image */
+            background-size: cover; /* Make the image cover the whole page */
         }
 
         /* Style the iframe to take full width and height */
@@ -20,6 +21,7 @@
             width: 100%;
             height: 100%;
             border: none;
+            z-index: 1; /* Ensure iframe is above the background */
         }
     </style>
 </head>
